@@ -38,21 +38,21 @@ const SectionsRessources = () => {
               </li>
 
               <li className="text-primary-color text-sm">
-                Chauffandises et matériel de conservation d'aliments totalement
+                Chauffandises et matériel de conservation d{"'"}aliments totalement
                 étanches
               </li>
               <li className="text-primary-color text-sm">
-                Équipes expérimentées et d'une flexibilité à toute epreuve
+                Équipes expérimentées et d{"'"}une flexibilité à toute epreuve
               </li>
 
               <li className="text-primary-color text-sm">
-                Chaine d'approvisionnement totalement intégrée et respectant la
-                chaine du froid pour la qualité et l'hygiène des aliments
+                Chaine d{"'"}approvisionnement totalement intégrée et respectant la
+                chaine du froid pour la qualité et l{"'"}hygiène des aliments
               </li>
             </ul>
             <p className="font-bold">
               Ces ressources ne sont pas exhaustives et nous sommes en mesure de
-              les adapter en fonction de l'envergure d'un projet donné.
+              les adapter en fonction de l{"'"}envergure d{"'"}un projet donné.
             </p>
           </div>
         </ScrollAnimation>

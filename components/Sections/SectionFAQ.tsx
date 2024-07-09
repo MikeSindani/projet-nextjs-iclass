@@ -27,7 +27,7 @@ const SectionFAQ = () => {
           <Accordion type="single" collapsible className="space-y-3">
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                Q: Qu'est-ce que I Class Restaurant-Boulangerie offre?
+                Q: Qu{"'"}est-ce que I Class Restaurant-Boulangerie offre?
               </AccordionTrigger>
               <AccordionContent>
                 A: Nous offrons une variété de plats congolais dans un cadre
@@ -37,7 +37,7 @@ const SectionFAQ = () => {
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                Q: Quel est l'historique de I Class Restaurant-Boulangerie?
+                Q: Quel est l{"'"}historique de I Class Restaurant-Boulangerie?
               </AccordionTrigger>
               <AccordionContent>
                 A: Nous avons été établis en juin 2015 à Fungurume, initialement
@@ -61,12 +61,12 @@ const SectionFAQ = () => {
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                Q: Quelle est la qualité de l'équipe de I Class
+                Q: Quelle est la qualité de l{"'"}équipe de I Class
                 Restaurant-Boulangerie?{" "}
               </AccordionTrigger>
               <AccordionContent>
                 A: Nous avons une équipe passionnée et qualifiée, incluant des
-                chefs créatifs, qui s'engagent à offrir une expérience culinaire
+                chefs créatifs, qui s{"'"}engagent à offrir une expérience culinaire
                 exceptionnelle à chacun de nos clients. Nous nous assurons
                 également de la satisfaction et du bien-être de nos employés.
               </AccordionContent>
@@ -92,7 +92,7 @@ const SectionFAQ = () => {
               <AccordionContent>
                 A: Nous offrons des services de housekeeping/laundry complets,
                 incluant la préparation et la mise en place des repas,
-                l'entretien sanitaire des locaux, les lavages domestiques
+                l{"'"}entretien sanitaire des locaux, les lavages domestiques
                 (lessive, vaisselle) et la gestion des déchets.
               </AccordionContent>
             </AccordionItem>
@@ -129,12 +129,12 @@ const SectionFAQ = () => {
             </AccordionItem>
             <AccordionItem value="item-10">
               <AccordionTrigger>
-                Q: Comment puis-je obtenir plus d'informations sur vos services?
+                Q: Comment puis-je obtenir plus d{"'"}informations sur vos services?
               </AccordionTrigger>
               <AccordionContent>
                 A: Vous pouvez nous contacter directement pour obtenir plus
-                d'informations sur nos services et discuter de vos besoins
-                spécifiques. Q: Quels sont les horaires d'ouvertur
+                d{"'"}informations sur nos services et discuter de vos besoins
+                spécifiques. Q: Quels sont les horaires d{"'"}ouvertur
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-11">
@@ -142,7 +142,7 @@ const SectionFAQ = () => {
                  Q: Puis-je faire une réservation pour un événement spécial?
               </AccordionTrigger>
               <AccordionContent>
-              A: Oui, nous sommes heureux de vous aider à organiser vos événements spéciaux, tels que des mariages, des anniversaires ou des réunions d'affaires. Veuillez nous contacter pour discuter de vos besoins spécifiques.
+              A: Oui, nous sommes heureux de vous aider à organiser vos événements spéciaux, tels que des mariages, des anniversaires ou des réunions d{"'"}affaires. Veuillez nous contacter pour discuter de vos besoins spécifiques.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

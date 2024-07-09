@@ -739,6 +739,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-animate-on-scroll@npm:^2.1.8":
+  version: 2.1.8
+  resolution: "@types/react-animate-on-scroll@npm:2.1.8"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/26562e1c3fe85de34942f34bbfe5bb4d1b2050899fc1336efdad2cb1fde1910c8a4350b2fbc925664352afa0fcbbfd7d1948f8d613726e7246e2b897930715e4
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:^18":
   version: 18.3.0
   resolution: "@types/react-dom@npm:18.3.0"
@@ -2443,6 +2452,7 @@ __metadata:
     "@radix-ui/react-accordion": "npm:^1.1.2"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
+    "@types/react-animate-on-scroll": "npm:^2.1.8"
     "@types/react-dom": "npm:^18"
     animate.css: "npm:^4.1.1"
     class-variance-authority: "npm:^0.7.0"

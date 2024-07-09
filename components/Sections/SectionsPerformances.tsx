@@ -43,9 +43,9 @@ export function SectionsPerformancesSuite() {
   return (
     <div className="flex flex-col space-y-2 bg-white text-black px-16">
       <p>
-        Afin d'illustrer la confiance acquise dans nos rapports avec nos
+        Afin d{"'"}illustrer la confiance acquise dans nos rapports avec nos
         partenaires, nous pouvons souligner la mission que nous a récemment
-        confié l'entreprise NB Mining.
+        confié l{"'"}entreprise NB Mining.
       </p>
       <p>
         En effet, nous avons depuis peu à notre charge la gestion de leur

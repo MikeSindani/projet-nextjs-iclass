@@ -24,7 +24,7 @@ const SectionActivites = () => {
           <ScrollAnimation animateIn="fadeInRight">
           <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
             <p>
-              Tel qu'évoqué plus haut, l'essentiel de nos activités se rapporte
+              Tel qu{"'"}évoqué plus haut, l{"'"}essentiel de nos activités se rapporte
               au cadre culinaire, notamment:
             </p>
             <ul class="list-disc ml-5">
@@ -35,9 +35,9 @@ const SectionActivites = () => {
               <li class="text-primary-color font-bold"> BOULANGERIE/PATISSERIE</li>
             </ul>
             <p>
-              Etant donné l'envergure de notre vision sur le long terme, nous
-              avons récemment entrepris d'offrir des services dans le cadre de
-              l'hygiène/ assainissement (HOUSEKEEPINC) et nous sommes largement
+              Etant donné l{"'"}envergure de notre vision sur le long terme, nous
+              avons récemment entrepris d{"'"}offrir des services dans le cadre de
+              l{"'"}hygiène/ assainissement (HOUSEKEEPINC) et nous sommes largement
               satisfaits des retours obtenus sur la qualité de ces derniers.
             </p>
           </div>
