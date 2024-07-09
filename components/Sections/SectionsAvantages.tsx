@@ -9,7 +9,7 @@ const SectionsAvantages = () => {
   return (
     <section
       id="avantages"
-      className="flex flex-col bg-white justify-center items-start space-x-3 py-8 px-16  w-full"
+      className="flex flex-col bg-white justify-center items-start space-x-3 py-4 px-8 md:py-8 md:px-16  w-full"
     >
       <div className="m-3 relative">
         <h1 className="font-bold text-3xl md:text-4xl text-primary-color text-center m-3 text__content ">
@@ -17,20 +17,20 @@ const SectionsAvantages = () => {
         </h1>
         <p className="text-md text-gray-900 text-center">
           Nous tenions à souligner des éventuels avantages à opter pour une
-          collab- oration avec IClass ; regroupons ces derniers en deux
+          collaboration avec iClass; regroupons ces derniers en deux
           catégories.
         </p>
       </div>
       <div className="flex flex-col-reverse md:flex-row justify-center items-start space-x-3">
-        <div className="flex md:w-1/2 gap-3 p-6">
-          <div className="flex justify-center items-center md:w-1/3">
+        <div className="flex max-md:flex-col  w-full md:w-1/2 gap-3 p-6">
+          <div className="flex  justify-center items-center md:w-1/3 max-md:h-1/3">
             <Image
               src={ImageServices}
               alt="nos services images"
-              className="w-full h-max object-cover"
+              className="w-full  h-max  object-cover"
             />
           </div>
-          <ScrollAnimation animateIn="fadeIn" delay={300} className="md:w-2/3">
+          <ScrollAnimation animateIn="fadeIn"  className="md:w-2/3">
             <h2 className="font-bold text-left text-xl md:text-2xl m-2">
               <span className="text-primary-color uppercase">Financiers</span>
             </h2>
@@ -38,21 +38,21 @@ const SectionsAvantages = () => {
                 Les repas que nous fournissons ont en moyenne un coût de 20%
                 inférieur par rapport à la plupart des autres fournisseurs sur
                 le marché local. Nous favorisons du gain de temps et une
-                facilité de gestion de la trésorerie par le biais d'un payement
+                facilité de gestion de la trésorerie par le biais d{"'"}un payement
                 unique mensuel. Possibilité de réallocation des économies
               
             </p>
           </ScrollAnimation>
         </div>
-        <div className="flex md:w-1/2 gap-3 p-6">
-          <div className="flex justify-center items-center md:w-1/3">
+        <div className="flex max-md:flex-col w-full md:w-1/2 gap-3 p-6">
+          <div className="flex justify-center items-center md:w-1/3 max-md:h-2/3">
             <Image
               src={ImageServicesTechniques}
               alt="nos services images"
-              className="w-full h-max object-cover"
+              className="w-64 md:w-full h-max object-cover"
             />
           </div>
-          <ScrollAnimation animateIn="fadeIn" delay={300} className="md:w-2/3">
+          <ScrollAnimation animateIn="fadeIn"  className="md:w-2/3">
             <h2 className="font-bold text-left text-xl md:text-2xl m-2">
               <span className="text-primary-color uppercase">Technique</span>
             </h2>

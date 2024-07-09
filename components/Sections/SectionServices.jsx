@@ -9,13 +9,14 @@ const SectionServices = () => {
    
       <section
         id="services"
-        className="flex flex-col-reverse bg-primary-color md:flex-row justify-center items-start space-x-3 px-16 md:h-[75dvh] w-full"
+        className="flex flex-col bg-primary-color md:flex-row justify-center items-start space-x-3 py-4 px-8 md:py-8 md:px-16 md:h-[75dvh] w-full"
       >
         <div className="flex flex-col md:w-1/2 gap-3 p-6">
-        <ScrollAnimation animateIn="fadeInLeft" delay={300}>
+        
           <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
-            <span className="text-secondary-color">Historique </span>
+            <span className="text-secondary-color">Historique</span>
           </h1>
+          <ScrollAnimation animateIn="fadeInLeft" >
           <p className="text-slate-900 font-normal text-justify text-md m-4">
             Le Restaurant-Boulangerie I Class a vu le jour au sein de la cité de
             Fungurume, en Juin 2015; période à laquelle nos clients

@@ -6,9 +6,6 @@ const nextConfig = {
       unoptimized: true,
       domains: ["localhost", "votredomaine.com"],
     },
-    static: {
-      public: './public',
-    },
   };
 
 export default nextConfig;

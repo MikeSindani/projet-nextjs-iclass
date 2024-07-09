@@ -1,16 +1,11 @@
 "use client";
-import React, { useState } from "react";
-import { useRef } from "react";
 import logo from "@/svg/logo1.svg";
 import Image from "next/image";
-import { SiGooglemaps } from "react-icons/si";
-import { FaYoutube } from "react-icons/fa";
+import { useRef, useState } from "react";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaPhoneAlt, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import { SiGooglemaps } from "react-icons/si";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,16 +30,16 @@ function Header() {
             'url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
         }}
       >
-        <div className="overlay bg-black/75 absolute inset-0 top-0 left-0 w-full h-full"></div>
+        <div className="overlay bg-black/60 absolute inset-0 top-0 left-0 w-full h-full"></div>
         <div className=" absolute inset-0 top-0 left-0 w-full h-full flex flex-col  z-10">
-          <div className="h-20 bg-primary-color flex justify-center md:justify-around items-center w-full ">
-            <div class="text-white md:flex gap-3 hidden">
-              <div>
-                  <FaFacebook />
+          <div className="h-16 md:h-20 bg-primary-color flex justify-around items-center w-full ">
+            <div class="text-white flex gap-3">
+              <div className="hidden">
+                <FaFacebook />
               </div>
-              <div>
+              <div className="hidden">
                 <a href="">
-                <FaSquareXTwitter />
+                  <FaSquareXTwitter />
                 </a>
               </div>
               <div>
@@ -55,7 +50,7 @@ function Header() {
                   <AiFillInstagram />
                 </a>
               </div>
-              <div>
+              <div className="hidden">
                 <a
                   href="https://www.linkedin.com/company/cinolu/"
                   target="_blank"
@@ -63,14 +58,14 @@ function Header() {
                   <FaLinkedin />
                 </a>
               </div>
-              <div>
+              <div className="hidden md:flex">
                 <a href="https://www.youtube.com/@cinolu6261" target="_blank">
-                <FaYoutube />
+                  <FaYoutube />
                 </a>
               </div>
-              <div>
+              <div className="flex">
                 <a href="https://www.youtube.com/@cinolu6261" target="_blank">
-                <SiGooglemaps />
+                  <SiGooglemaps />
                 </a>
               </div>
             </div>
@@ -78,14 +73,14 @@ function Header() {
               <Image src={logo} alt="logo" width={100} height={100} />
             </div>
             <div>
-              <div className="text-white md:flex items-center gap-3 hidden font-bold">
+              <div className="text-white flex items-center gap-3  font-bold">
                 <a href="https://wa.me/243823828117?">
-                    <FaWhatsapp />
+                  <FaWhatsapp />
                 </a>
                 <a href="tel:+243823828117">
-                    <FaPhoneAlt />
+                  <FaPhoneAlt />
                 </a>
-                <a href="tel:+243811819504">
+                <a className="max-md:hidden" href="tel:+243811819504">
                   <span>+243 823 828 117</span>
                 </a>
               </div>
@@ -102,7 +97,7 @@ function Header() {
                   <span className="sr-only">Open main menu</span>
                   {/* Icon when menu is closed. */}
                   {/* Menu open: "hidden", Menu closed: "block" */}
-                  <div ref={openMenuLogo} className="block">
+                  <div ref={openMenuLogo} className="flex gap-2">
                     <svg
                       className=" h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -118,6 +113,7 @@ function Header() {
                         d="M4 6h16M4 12h16M4 18h16"
                       />
                     </svg>
+                    <span>Menu</span>
                   </div>
 
                   {/* Icon when menu is open. */}
@@ -160,7 +156,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="#faq"
+                    href="#activites"
                     className="text-md font-meduim text-white hover:text-gray-200"
                   >
                     Nos activites
@@ -168,7 +164,15 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="#faq"
+                    href="#avantages"
+                    className="text-md font-meduim text-white hover:text-gray-200"
+                  >
+                    Nos avantages
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#performances"
                     className="text-md font-meduim text-white hover:text-gray-200"
                   >
                     Performance
@@ -176,7 +180,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="#faq"
+                    href="#ressources"
                     className="text-md font-meduim text-white hover:text-gray-200"
                   >
                     Ressources
@@ -192,7 +196,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    href="#maps"
+                    href="#map"
                     className="text-md font-meduim  text-white hover:text-gray-200"
                   >
                     Où sommes nous?
@@ -210,10 +214,12 @@ function Header() {
             </nav>
             <div className="flex justify-center items-center h-full w-full ">
               <div className="flex justify-center items-center flex-col space-y-3 w-72 h-72 absolute bottom-10 bg-primary-color rounded-full">
-                <h1 className={` md:text-5xl text-4xl font-bold text-white md:text-left island-moments-regular`}>
+                <h1
+                  className={` md:text-6xl text-4xl  text-white md:text-left island-moments-regular`}
+                >
                   Bienvenu(e)
                 </h1>
-                <p className="text-xs md:text-sm text-white text-justify">
+                <p className="text-sm md:text-md text-white text-justify">
                   Nous mettons à votre dispositionun cadre soigné au sein duquel
                   vous pourrez jouir de la variété des mets qui font la richesse
                   de l{"'"}art culinaire Congolais ; en plus de quoi, nous
@@ -221,7 +227,9 @@ function Header() {
                   besoins alimentaires ou encore faire resplendir vos
                   différents.
                 </p>
-                <h1 className="xs:text-xl sm:text-3xl md:text-4xl font-bold text-white">iClass</h1>
+                <h1 className="xs:text-xl sm:text-3xl md:text-4xl font-bold text-white">
+                  iClass
+                </h1>
               </div>
             </div>
           </div>
@@ -229,12 +237,37 @@ function Header() {
       </div>
       {/* Menu latéral ici */}
       <aside
-        className={`fixed top-0 right-0 w-64 h-screen bg-orfex-vert z-50 transform  transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 w-64 h-screen bg-secondary-color z-50 transform  transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="px-6 py-4">
-          <h2 className="text-xl font-semibold mb-4 text-white">Orfex</h2>
+          <div className="flex justify-between p-3">
+            <h2 className="text-xl font-semibold mb-4 text-white">iClass</h2>
+            <div ref={closeMenuLogo} className="hidden">
+              <button
+                onClick={() => handleMenu()}
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              >
+                <svg
+                  className=" h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="white"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
           <ul>
             <li>
               <a
@@ -249,7 +282,31 @@ function Header() {
                 href="#services"
                 className="block px-4 py-2 text-sm text-white hover:bg-orfex-bleu"
               >
-                Services
+                Historique
+              </a>
+            </li>
+            <li>
+              <a
+                href="#avantages"
+                className="block px-4 py-2 text-sm text-white hover:text-gray-200"
+              >
+                Nos avantages
+              </a>
+            </li>
+            <li>
+              <a
+                href="#performance"
+                className="block px-4 py-2 text-sm text-white hover:text-gray-200"
+              >
+                Performance
+              </a>
+            </li>
+            <li>
+              <a
+                href="#ressources"
+                className="block px-4 py-2 text-sm text-white hover:text-gray-200"
+              >
+                Ressources
               </a>
             </li>
             <li>
@@ -262,7 +319,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#maps"
+                href="#map"
                 className="block px-4 py-2 text-sm text-white hover:bg-orfex-bleu"
               >
                 Où sommes nous?
