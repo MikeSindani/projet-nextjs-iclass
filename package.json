@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.5.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "animate.css": "^4.1.1",
     "class-variance-authority": "^0.7.0",
@@ -20,6 +21,7 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "zustand": "^4.5.2"
