@@ -8,8 +8,8 @@ export function Footer() {
       <div className="flex flex-col md:flex-row gap-10 p-24 justify-around items-start">
         <section className="flex flex-col gap-5 justify-center md:justify-normal items-center md:items-start">
           <div className="text-white uppercase text-2xl font-bold">iClass</div>
-          <div className="text-base text-gray-400 font-normal">
-            Nous sommes la pour faire progresse votre vie!
+          <div className="text-base text-gray-400 font-normal md:w-96">
+             iCLASS est une entreprise locale qui allie savoir-faire boulanger et expertise traiteur pour offrir à ses clients des produits et services de qualité
           </div>
           <div data-aos="fade-up" className="text-white flex gap-5">
             <div className="p-3  bg-color-social-footer rounded-full hover:bg-slate-700 transition-all">

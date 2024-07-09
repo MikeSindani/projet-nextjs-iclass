@@ -44,7 +44,7 @@ function Header() {
               </div>
               <div>
                 <a
-                  href="https://www.instagram.com/explore/tags/cinolu/"
+                  href="https://www.instagram.com/iclass_restaurant?igsh=MW5sN3gzMnZydWo4Mg=="
                   target="_blank"
                 >
                   <AiFillInstagram />
@@ -58,13 +58,13 @@ function Header() {
                   <FaLinkedin />
                 </a>
               </div>
-              <div className="hidden md:flex">
+              <div className="hidden">
                 <a href="https://www.youtube.com/@cinolu6261" target="_blank">
                   <FaYoutube />
                 </a>
               </div>
               <div className="flex">
-                <a href="https://www.youtube.com/@cinolu6261" target="_blank">
+                <a href="https://www.google.com/maps/@-11.6520810,27.4438780,17z" target="_blank">
                   <SiGooglemaps />
                 </a>
               </div>
@@ -74,13 +74,13 @@ function Header() {
             </div>
             <div>
               <div className="text-white flex items-center gap-3  font-bold">
-                <a href="https://wa.me/243823828117?">
+                <a href="https://wa.me/243823828117?" target="_blank">
                   <FaWhatsapp />
                 </a>
                 <a href="tel:+243823828117">
                   <FaPhoneAlt />
                 </a>
-                <a className="max-md:hidden" href="tel:+243811819504">
+                <a className="max-md:hidden" href="tel:+243811819504" target="_blank">
                   <span>+243 823 828 117</span>
                 </a>
               </div>

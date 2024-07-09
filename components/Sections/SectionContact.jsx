@@ -127,18 +127,18 @@ export default function SectionsContact() {
                     <div  className="flex flex-col gap-3 justify-center items-center w-72">
                       <Image src={maps} alt="Logo" width={50} height={50} />
                       <div>
-                        <a href="maps.google.com" className="text-sm font-bold">
+                        <a href="https://www.google.com/maps/@-11.6520810,27.4438780,17z" target="_blank" className="text-sm font-bold">
                            Lubumbashi : 1bis Av. Dr kahozi, Q/ Kabulameshi,C/ 
                         </a>
                       </div>
                       <div>
-                        <a href="maps.google.com" className="text-sm font-bold">
+                        <a href="maps.google.com" className="text-sm font-bold" target="_blank">
                           Kolwezi : N 2eme Avenue, Centre ville,
                           Commune de DILALA
                         </a>
                       </div>
                       <div>
-                        <a href="maps.google.com" className="text-sm font-bold">
+                        <a href="maps.google.com" className="text-sm font-bold" target="_blank">
                           Fungurume
                           NO 4, Avenue MWELA MPANDE, Quartier
                           BISSIPI, Commune de Fungurume
@@ -151,6 +151,7 @@ export default function SectionsContact() {
                         <a
                           href="tel:+243823828117"
                           className="text-sm font-bold"
+                          target="_blank"
                         >
                           +243 823 828 117
                         </a>
@@ -162,6 +163,7 @@ export default function SectionsContact() {
                         <a
                           href="mailto:patbwiza@iclass.site"
                           className="text-sm font-bold"
+                          target="_blank"
                         >
                          patbwiza@iclass.site
                         </a>
