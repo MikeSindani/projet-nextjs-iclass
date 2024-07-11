@@ -60,6 +60,36 @@ export function Footer() {
               <FaArrowRight />
               <a
                 className="text-gray-400 transition-all hover:text-white text-sm md:text-md"
+                href="#avantages"
+              >
+                Nos Avantages
+              </a>{" "}
+            </li>
+
+            <li className="flex gap-2 items-center">
+              <FaArrowRight />
+              <a
+                className="text-gray-400 transition-all hover:text-white text-sm md:text-md"
+                href="#performances"
+              >
+                Nos Performances
+              </a>{" "}
+            </li>
+
+            <li className="flex gap-2 items-center">
+              <FaArrowRight />
+              <a
+                className="text-gray-400 transition-all hover:text-white text-sm md:text-md"
+                href="#ressources"
+              >
+                Nos Ressources
+              </a>{" "}
+            </li>
+
+            <li className="flex gap-2 items-center">
+              <FaArrowRight />
+              <a
+                className="text-gray-400 transition-all hover:text-white text-sm md:text-md"
                 href="#contact"
               >
                 Contactez-nous

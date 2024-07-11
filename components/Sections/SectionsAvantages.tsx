@@ -27,7 +27,7 @@ const SectionsAvantages = () => {
             <Image
               src={ImageServices}
               alt="nos services images"
-              className="w-full  h-max  object-cover"
+              className="w-36 md:w-full h-max object-cover"
             />
           </div>
           <ScrollAnimation animateIn="fadeIn"  className="md:w-2/3">
@@ -49,7 +49,7 @@ const SectionsAvantages = () => {
             <Image
               src={ImageServicesTechniques}
               alt="nos services images"
-              className="w-64 md:w-full h-max object-cover"
+              className="w-36 md:w-full h-max object-cover"
             />
           </div>
           <ScrollAnimation animateIn="fadeIn"  className="md:w-2/3">

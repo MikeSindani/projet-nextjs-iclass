@@ -32,7 +32,7 @@ function Header() {
       >
         <div className="overlay bg-black/60 absolute inset-0 top-0 left-0 w-full h-full"></div>
         <div className=" absolute inset-0 top-0 left-0 w-full h-full flex flex-col  z-10">
-          <div className="h-16 md:h-20 bg-primary-color flex justify-around items-center w-full ">
+          <div className="h-16 md:h-20 bg-primary-color flex justify-between px-5 items-center w-full ">
             <div class="text-white flex gap-3">
               <div className="hidden">
                 <FaFacebook />

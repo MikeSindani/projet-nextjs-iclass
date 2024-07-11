@@ -20,11 +20,11 @@ const SectionsPerformances = () => {
             Dans le tableau ci-après, vous trouverez l{"'"}évolution de nos
             services dans le cadre du catering :
           </p>
-          <ScrollAnimation animateIn="fadeInLeft">
+          <ScrollAnimation animateIn="fadeIn">
             <Image
               src={ImagePerformances}
               alt="nos services images"
-              className="w-full h-max object-cover"
+              className="w-full max-md:h-[80dvh]  h-full object-cover"
             />
           </ScrollAnimation>
         </div>

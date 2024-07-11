@@ -8,7 +8,7 @@ const SectionsRessources = () => {
   return (
     <section
       id="ressources"
-      className="flex flex-col-reverse bg-white md:flex-row justify-center items-start space-x-3 py-4 px-8 md:py-8 md:px-16  w-full"
+      className="flex flex-col-reverse bg-white md:flex-row justify-center items-center md:items-start space-x-3 py-4 px-8 md:py-8 md:px-16  w-full"
     >
       <div className="md:w-1/2 flex justify-center items-center">
         <Image
@@ -18,11 +18,11 @@ const SectionsRessources = () => {
         />
       </div>
 
-      <div className="flex flex-col md:w-1/2 gap-3 p-6 w-screen">
+      <div className="flex flex-col md:w-1/2 gap-3 p-6 w-full">
         <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
           <span className="text-primary-color">Nos Ressources</span>
         </h1>
-        <ScrollAnimation animateIn="fadeInRight">
+        <ScrollAnimation animateIn="fadeIn" >
           <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
             <p>
               Notre entreprise dispose de ressources matérielles garantissant la

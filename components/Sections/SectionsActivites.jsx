@@ -21,7 +21,7 @@ const SectionActivites = () => {
           <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
             <span className="text-primary-color">Nos activites</span>
           </h1>
-          <ScrollAnimation animateIn="fadeInRight">
+          <ScrollAnimation animateIn="fadeIn">
           <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
             <p>
               Tel qu{"'"}évoqué plus haut, l{"'"}essentiel de nos activités se rapporte

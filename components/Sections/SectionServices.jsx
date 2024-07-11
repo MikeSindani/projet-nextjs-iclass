@@ -16,7 +16,7 @@ const SectionServices = () => {
           <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
             <span className="text-secondary-color">Historique</span>
           </h1>
-          <ScrollAnimation animateIn="fadeInLeft" >
+          <ScrollAnimation animateIn="fadeIn" >
           <p className="text-slate-900 font-normal text-justify text-md m-4">
             Le Restaurant-Boulangerie I Class a vu le jour au sein de la cité de
             Fungurume, en Juin 2015; période à laquelle nos clients
