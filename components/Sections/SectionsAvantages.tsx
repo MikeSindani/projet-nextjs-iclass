@@ -39,7 +39,7 @@ const SectionsAvantages = () => {
               className="w-6 h-6 object-cover mx-2"
             /><span className="text-primary-color uppercase">Financiers</span>
             </h2>
-            <p className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
+            <p className="text-slate-900 font-normal text-justify  m-4 flex flex-col space-y-2">
                 Les repas que nous fournissons ont en moyenne un coût de 20%
                 inférieur par rapport à la plupart des autres fournisseurs sur
                 le marché local. Nous favorisons du gain de temps et une
@@ -66,7 +66,7 @@ const SectionsAvantages = () => {
             />
               <span className="text-primary-color uppercase">Technique</span>
             </h2>
-            <p className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
+            <p className="text-slate-900 font-normal text-justify  m-4 flex flex-col space-y-2">
                 Notre équipe des employés passionnés et qualifiés, parmi
                 lesquels des chefs créatifs. Nous nous engageons à offrir une
                 expérience culinaire exceptionnelle à chacun de nos clients.

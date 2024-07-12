@@ -219,7 +219,7 @@ function Header() {
                 >
                   Bienvenu(e)
                 </h1>
-                <p className="text-sm md:text-md text-white text-justify">
+                <p className="text-md text-white text-justify">
                   Nous mettons à votre dispositionun cadre soigné au sein duquel
                   vous pourrez jouir de la variété des mets qui font la richesse
                   de l{"'"}art culinaire Congolais ; en plus de quoi, nous

@@ -23,7 +23,7 @@ const SectionsRessources = () => {
           <span className="text-primary-color">Nos Ressources</span>
         </h1>
         <ScrollAnimation animateIn="fadeIn" >
-          <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
+          <div className="text-slate-900 font-normal text-justify m-4 flex flex-col space-y-2">
             <p>
               Notre entreprise dispose de ressources matérielles garantissant la
               satisfaction de nos Clients et la tenue de engagements en termes

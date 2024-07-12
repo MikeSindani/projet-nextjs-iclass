@@ -23,7 +23,7 @@ const SectionActivites = () => {
             <span className="text-primary-color">Nos activites</span>
           </h1>
           <ScrollAnimation animateIn="fadeIn">
-          <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
+          <div className="text-slate-900 font-normal text-justify m-4 flex flex-col space-y-2">
             <p>
               Tel qu{"'"}évoqué plus haut, l{"'"}essentiel de nos activités se rapporte
               au cadre culinaire, notamment:

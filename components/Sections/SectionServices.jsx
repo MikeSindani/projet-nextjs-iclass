@@ -17,7 +17,7 @@ const SectionServices = () => {
             <span className="text-secondary-color">Historique</span>
           </h1>
           <ScrollAnimation animateIn="fadeIn" >
-          <p className="text-slate-900 font-normal text-justify text-md m-4">
+          <p className="text-slate-900 font-normal text-justify m-4">
             Le Restaurant-Boulangerie iClass a vu le jour au sein de la cité de
             Fungurume, en Juin 2015; période à laquelle nos clients
             bénéficiaient de nos services exclusivement sur place. Par la suite,
