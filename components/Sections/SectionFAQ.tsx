@@ -12,7 +12,7 @@ const SectionFAQ = () => {
   return (
     <section
       id="faq"
-      className="flex flex-col py-4 px-8 md:py-8 md:px-16 space-y-2 bg-primary-color"
+      className="flex flex-col  px-4 py-10 md:px-16 space-y-2 bg-primary-color"
     >
       <ScrollAnimation animateIn="fadeIn" delay={300}>
         <div className="m-3">
@@ -134,7 +134,7 @@ const SectionFAQ = () => {
               <AccordionContent>
                 A: Vous pouvez nous contacter directement pour obtenir plus
                 d{"'"}informations sur nos services et discuter de vos besoins
-                spécifiques. Q: Quels sont les horaires d{"'"}ouvertur
+                spécifiques.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-11">

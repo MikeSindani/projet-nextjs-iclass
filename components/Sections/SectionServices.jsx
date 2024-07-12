@@ -9,16 +9,16 @@ const SectionServices = () => {
    
       <section
         id="services"
-        className="flex flex-col bg-primary-color md:flex-row justify-center items-start space-x-3 py-4 px-8 md:py-8 md:px-16 md:h-[75dvh] w-full"
+        className="flex flex-col bg-primary-color md:flex-row justify-center items-start space-x-3 px-4 py-10 md:px-16 md:h-[75dvh] w-full"
       >
-        <div className="flex flex-col md:w-1/2 gap-3 p-6">
+        <div className="flex flex-col md:w-1/2 gap-3 md:p-6">
         
           <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
             <span className="text-secondary-color">Historique</span>
           </h1>
           <ScrollAnimation animateIn="fadeIn" >
           <p className="text-slate-900 font-normal text-justify text-md m-4">
-            Le Restaurant-Boulangerie I Class a vu le jour au sein de la cité de
+            Le Restaurant-Boulangerie iClass a vu le jour au sein de la cité de
             Fungurume, en Juin 2015; période à laquelle nos clients
             bénéficiaient de nos services exclusivement sur place. Par la suite,
             sur base de la demande croissante du marché, nous avons pris la
@@ -27,7 +27,7 @@ const SectionServices = () => {
             Nous avons depuis eu de nombreuses opportunités de collaboration
             avec diverses entreprises de Fungurume, kolwezi et de Lubumbashi, ce
             qui a largement contribué au développement et au renforcement de
-            l {"'"}image de la société ICLASS SAS.
+            l {"'"}image de la société iCLASS SAS.
           </p>
           </ScrollAnimation>
         </div>

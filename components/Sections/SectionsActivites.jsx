@@ -3,12 +3,13 @@ import ImageServices from "@/asset/svg/activites.svg";
 import Image from "next/image";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
+import ImageTick from '@/asset/svg/tick.svg'
 
 const SectionActivites = () => {
   return (
     <section
       id="activites"
-      className="flex flex-col-reverse bg-white md:flex-row justify-center items-start space-x-3 py-8 px-16  w-full"
+      className="flex flex-col-reverse bg-white md:flex-row justify-center items-start space-x-3 px-4 py-10 md:px-16 w-full"
     >
       <div className="md:w-1/2 flex justify-center items-center">
         <Image
@@ -17,7 +18,7 @@ const SectionActivites = () => {
           className="w-full h-max object-cover"
         />
       </div>
-      <div className="flex flex-col md:w-1/2 gap-3 p-6">
+      <div className="flex flex-col md:w-1/2 gap-3 md:p-6">
           <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
             <span className="text-primary-color">Nos activites</span>
           </h1>
@@ -27,7 +28,7 @@ const SectionActivites = () => {
               Tel qu{"'"}évoqué plus haut, l{"'"}essentiel de nos activités se rapporte
               au cadre culinaire, notamment:
             </p>
-            <ul class="list-disc ml-5">
+            <ul class="ml-5 list-disc" >
               <li class="text-primary-color font-bold">LA RESTAURATION (Au sein de nos locaux)</li>
               <li class="text-primary-color font-bold">LE CATERING.</li>
               <li class="text-primary-color font-bold" >LE RESTAURANT.</li>

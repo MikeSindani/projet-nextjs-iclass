@@ -26,7 +26,7 @@ const ReturnButton = () => {
 
   return (
     <a
-      className="bg-secondary-color hover:bg-primary-color text-white font-bold text-xs py-2 px-4 rounded-full fixed right-6 bottom-6 mt-4 mr-4 max-md:hidden"
+      className="bg-secondary-color hover:bg-primary-color text-white font-bold text-xs py-2 px-4 rounded-full fixed right-3 md:right-6 bottom-3 md:bottom-6 mt-4 mr-4"
       style={{ display: visible ? 'block' : 'none' }}
       href='#haut'
     >

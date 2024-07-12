@@ -5,7 +5,7 @@ import { FaArrowLeft, FaArrowRight, FaWhatsapp } from "react-icons/fa";
 export function Footer() {
   return (
     <footer className="bg-secondary-color  flex flex-col justify-center items-center gap-5">
-      <div className="flex flex-col md:flex-row gap-10 p-24 justify-around items-start">
+      <div className="flex flex-col md:flex-row gap-10 px-4 py-10 md:px-16 justify-around items-start">
         <section className="flex flex-col gap-5 justify-center md:justify-normal items-center md:items-start">
           <div className="text-white uppercase text-2xl font-bold">iClass</div>
           <div className="text-base text-gray-400 font-normal md:w-96">
@@ -21,6 +21,11 @@ export function Footer() {
             <div className="p-3  bg-color-social-footer rounded-full hover:bg-slate-700 transition-all">
               <a href="https://www.instagram.com/iclass_restaurant?igsh=MW5sN3gzMnZydWo4Mg==" target="_blank">
                 <AiFillInstagram size={24} />
+              </a>
+            </div>
+            <div className="p-3  bg-color-social-footer rounded-full hover:bg-slate-700 transition-all">
+              <a href="mailto:patbwiza@iclass.site" target="_blank">
+                <AiFillMail size={24} />
               </a>
             </div>
           </div>
@@ -151,7 +156,7 @@ export function Footer() {
         </section>
       </div>
       <div className="h-[1px] mx-3 bg-primary-color w-full"></div>
-      <div className=" text-white p-5 text-center">© Copyright iClass</div>
+      <div className=" text-white p-5 text-center">©Copyright iClass {new Date().getFullYear()} </div>
     </footer>
   );
 }

@@ -215,7 +215,7 @@ function Header() {
             <div className="flex justify-center items-center h-full w-full ">
               <div className="flex justify-center items-center flex-col space-y-3 w-72 h-72 absolute bottom-10 bg-primary-color rounded-full">
                 <h1
-                  className={` md:text-6xl text-4xl  text-white md:text-left island-moments-regular`}
+                  className={` text-6xl text-white md:text-left island-moments-regular`}
                 >
                   Bienvenu(e)
                 </h1>
@@ -227,7 +227,7 @@ function Header() {
                   besoins alimentaires ou encore faire resplendir vos
                   différents.
                 </p>
-                <h1 className="xs:text-xl sm:text-3xl md:text-4xl font-bold text-white">
+                <h1 className="text-3xl md:text-4xl font-bold text-white">
                   iClass
                 </h1>
               </div>
@@ -243,7 +243,7 @@ function Header() {
       >
         <div className="px-6 py-4">
           <div className="flex justify-between p-3">
-            <h2 className="text-xl font-semibold mb-4 text-white">iClass</h2>
+            <h2 className="text-xl font-semibold mb-4 text-primary-color">iClass</h2>
             <div ref={closeMenuLogo} className="hidden">
               <button
                 onClick={() => handleMenu()}
@@ -328,7 +328,7 @@ function Header() {
             <li>
               <a
                 href="#contact"
-                className="block px-4 py-2 text-sm text-white hover:borfex-bleu"
+                className="block px-4 py-2 text-sm text-primary-color hover:borfex-bleu"
               >
                 Contactez-nous
               </a>

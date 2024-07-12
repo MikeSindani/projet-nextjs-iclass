@@ -8,7 +8,7 @@ const SectionsRessources = () => {
   return (
     <section
       id="ressources"
-      className="flex flex-col-reverse bg-white md:flex-row justify-center items-center md:items-start space-x-3 py-4 px-8 md:py-8 md:px-16  w-full"
+      className="flex flex-col bg-white md:flex-row justify-center items-center md:items-start space-x-3 px-4 py-10 md:px-16  w-full"
     >
       <div className="md:w-1/2 flex justify-center items-center">
         <Image

@@ -9,13 +9,13 @@ const SectionsPerformances = () => {
   return (
     <section
       id="performances"
-      className="flex flex-col-reverse bg-white md:flex-row justify-center items-start space-x-3 py-4 px-8 md:py-8 md:px-16  w-full "
+      className="flex flex-col-reverse bg-white md:flex-row justify-center items-start md:space-x-3 px-4 py-10 md:px-16 w-full "
     >
       <div className="flex flex-col md:w-1/2 gap-3 p-6">
         <h1 className="font-bold text-left text-3xl md:text-4xl m-2">
           <span className="text-primary-color">Nos Performances</span>
         </h1>
-        <div className="text-slate-900 font-normal text-justify text-md m-4 flex flex-col space-y-2">
+        <div className="text-slate-900 font-normal text-justify text-md md:m-4 flex flex-col space-y-2">
           <p>
             Dans le tableau ci-après, vous trouverez l{"'"}évolution de nos
             services dans le cadre du catering :
@@ -24,7 +24,7 @@ const SectionsPerformances = () => {
             <Image
               src={ImagePerformances}
               alt="nos services images"
-              className="w-full max-md:h-[80dvh]  h-full object-cover"
+              className="w-full h-full object-cover"
             />
           </ScrollAnimation>
         </div>
@@ -41,7 +41,7 @@ const SectionsPerformances = () => {
 };
 export function SectionsPerformancesSuite() {
   return (
-    <div className="flex flex-col space-y-2 bg-white text-black px-16">
+    <div className="flex flex-col space-y-2 bg-white text-black px-4 py-10 md:px-16">
       <p>
         Afin d{"'"}illustrer la confiance acquise dans nos rapports avec nos
         partenaires, nous pouvons souligner la mission que nous a récemment
@@ -62,9 +62,9 @@ export function SectionsPerformancesSuite() {
       </ul>
       <p className="font-bold">
         Par ailleurs, nous sommes partenaires de Tenke Fungurume Mining dans le
-        cadre du contrat de service Numéro CW222247S. Nous nous occupons du
-        service traiteur de leurs conférences, ateliers, formations, forums,
-        expositions ou toute autre cérémonie se déroulant au sein de la
+        cadre du contrat de service Numéro CW222247S.  <br />
+        Nous nous occupons du service traiteur de leurs conférences, ateliers, formations, forums,
+        expositions ou toute autre cérémonie se déroulant au sein de la cité.
       </p>
     </div>
   );

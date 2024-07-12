@@ -13,7 +13,7 @@ export default function SectionsAbout() {
   return (
     <section
       id="Engagement"
-      className="flex flex-col py-4 px-8 md:py-8 md:px-16 relative top-0 left-0 w-full "
+      className="flex flex-col px-4 py-10 md:px-16 relative top-0 left-0 w-full "
     >
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-fixed"
